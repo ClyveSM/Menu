@@ -1,0 +1,58 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+	background-color: #ADB993;
+}
+
+h2, p{
+	display: flexbox;
+}
+
+.menu{
+	display:flex
+}
+
+.drinks, .food{
+	border-style: solid;
+	border-color: #2F4858;
+	margin: 5px;
+	background-color: #949D6A;
+	width: 50%;
+}
+
+.drinks{
+	
+}
+.header{
+	border: 3px solid #2F4858;
+	background-color: #949D6A;
+	padding: 5px;
+}
+
+.title{
+	text-align: center;
+}
+
+dl, dt, dd, h1, h2, h3{
+	color: #F6CA83;
+	font-family: alkatra, cursive;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+	display:none;
+	position: absolute;
+	overflow:hidden;
+	z-index: 1
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
